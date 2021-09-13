@@ -1,0 +1,13 @@
+//same for snake and ladder. Use some flag
+class Jumper {
+
+    int _startPoint;
+    int _endPoint;
+    
+    Jumper(int startPoint, int endPoint)
+    {
+        _startPoint = startPoint;
+        _endPoint   = endPoint;
+      
+    }
+}

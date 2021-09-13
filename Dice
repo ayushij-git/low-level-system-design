@@ -1,0 +1,9 @@
+class Dice {
+
+    int _numberOfDice;
+    
+    Dice(int numberOfDice) { _numberOfDice = numberOfDice; }
+    
+    int rolDice() { return ((rand()%((_numberOfDice*6 - (_numberOfDice * 1))) + 1);
+    
+}
